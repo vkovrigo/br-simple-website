@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: oldlace;
+
+    margin: 0;
+}
+
+.page-header {
+    flex-shrink: 0;
+
+    padding: 1em 2em 0;
+
+    background-color: lightcyan;
+}
+
+.page-body {
+    display: flex;
+    flex: 1 0 auto;
+
+    padding: 0 2em;
+    margin-top: 1em;
+}
+
+.page-footer {
+    flex-shrink: 0;
+
+    padding: 1em 2em;
+
+    background-color: lightcyan;
+}
+
+.page-navigation {
+    flex-shrink: 0;
+    flex-basis: 10em;
+}
+
+.page-content {
+    flex: 1;
+
+    padding: 0 1em;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    overflow: hidden;
+
+    background-color: lightyellow;
+}
+
+.nav-menu__item {
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.nav-menu__item:hover {
+    background-color: lightgrey;
+}
+
+.nav-menu__item > .nav-menu {
+    max-height: 0;
+
+    transition: max-height .25s ease-out;
+}
+
+.nav-menu__item_expanded > .nav-menu {
+    max-height: 100vh;
+
+    transition: max-height .25s ease-in;
+}
+
+.nav-menu__item-text {
+    padding: .5em .3em;
+}
+
+.nav-menu_level-2 .nav-menu__item-text {
+    padding-left: 1em;
+}
+
+.nav-menu_level-3 .nav-menu__item-text {
+    padding-left: 1.5em;
+}
+
+p, h1, h2, h2, h4, h5, h6 {
+    margin-top: 0;
+}
