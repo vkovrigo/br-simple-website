@@ -1,6 +1,9 @@
 # br-simple-website
 Simple website on pure HTML/CSS/JS
 
+## Test URL
+https://vkovrigo.github.io/br-simple-website/
+
 TODO:
 
 - [x] Part 1: Create a menu
@@ -17,6 +20,6 @@ TODO:
     content becomes longer the footer is 'pushed down' so a user has to scroll down to see it.
 - [x] Bonus Points: Animation
     Animate the expand/collapse of sub-menus.
-- [ ] Host / github pages;
+- [x] Host / github pages;
 - [ ] Grid layout instead of Flex;
 - [ ] Night / Day team;
